@@ -1,0 +1,14 @@
+body::before/*before is a pseudo selector*/
+{
+display:block;
+content:"";
+height:60px;/*This adds a ghost element of 60 px 
+so that there is space of 60px on large and medium screens*/
+}
+@media(min-width:768px)
+{
+	.news-input
+	{
+		width:50%;
+	}
+}
